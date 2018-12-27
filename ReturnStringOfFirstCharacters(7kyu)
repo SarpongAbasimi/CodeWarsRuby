@@ -1,0 +1,19 @@
+=begin  
+In this exercise, a string is passed to a method and a new string has to be 
+returned with the first character of each word in the string.
+=end
+
+
+def make_string(s)
+    split=s.split(' ')
+    answerContainer=[].join('')
+    #Loop through the array and get the first letter of each 
+    split.select do |x|
+        answerContainer << x[0]
+    end
+    return answerContainer
+end
+
+
+print make_string("sees eyes xray yoat")
+  
