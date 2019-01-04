@@ -1,0 +1,6 @@
+Sum Array
+
+# Sum Numbers
+def sum(numbers)
+return numbers.sum
+end
