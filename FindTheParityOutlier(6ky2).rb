@@ -5,6 +5,7 @@ The array is either entirely comprised of odd integers or entirely comprised of
 even integers except for a single integer N.
 Write a method that takes the array as an argument and returns this "outlier" N.
 =end
+#ans
 myarr= [160, 3, 1719, 19, 11, 13, -21]
 
 def mycheck(input)
