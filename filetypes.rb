@@ -6,11 +6,13 @@ You've been working with a lot of different file types recently as your interest
 
 But what file types are you using the most? With this question in mind we look at the following problem.
 
-Given a List/Array of Filenames (strings) files return a List/Array of string(s) contatining the most common extension(s). If there is a tie, return a sorted list of all extensions.
+Given a List/Array of Filenames (strings) files return a List/Array of string(s) contatining the most common extension(s). 
+If there is a tie, return a sorted list of all extensions.
 
 Important Info:
 
-Don't forget, you've been working with a lot of different file types, so expect some interesting extensions/file names/lengths in the random tests.
+Don't forget, you've been working with a lot of different file types, 
+so expect some interesting extensions/file names/lengths in the random tests.
 Filenames and extensions will only contain letters (case sensitive), and numbers.
 If a file has multiple extensions (ie: mysong.mp3.als) only count the the last extension (.als in this case)
 
