@@ -51,3 +51,19 @@ class EventEmitter
     end
   end
 end
+
+
+#Better_solution
+class EventEmitter
+  def initialize
+    @subscribers = Hash.new{ |h, k| h[k] = [] }
+  end
+
+  def on(event, &block)
+    @subscribers[event] << block
+  end
+  
+  def trigger(event)
+    @subscribers[event].each(&:call)
+  end
+end
